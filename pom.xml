@@ -22,7 +22,7 @@
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
 		<sonar.host.url>http://172.31.8.249:9000/</sonar.host.url>
-                <sonar.login>squ_0b7bc208b1fa244c04f211e47d4fd551657cf6da</sonar.login>
+                <sonar.login>sqa_6d6964e9ddc271ddd88b1e439b238f442688f079</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -95,16 +95,16 @@
 	<distributionManagement>
 	
 	    <repository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://172.31.21.221:9980/mithuntechnologies/repository/hdfcbank-release/</url>
-	    </repository>
-	    
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://172.31.21.221:9980/mithuntechnologies/repository/hdfacbank-snapshot/</url>
-	    </snapshotRepository>
+              <id>nexus</id>
+              <name>RSS Release Nexus Repository</name>
+              <url>http://13.59.140.71:8081/repository/wallmart-release/</url>
+            </repository>
+
+            <snapshotRepository>
+              <id>nexus</id>
+              <name>RSS Snapshot Nexus Repository</name>
+              <url>http://13.59.140.71:8081/repository/wallmart-snapshot/</url>
+            </snapshotRepository>
 	    
 	</distributionManagement>
 	
